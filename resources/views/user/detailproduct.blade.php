@@ -33,17 +33,10 @@
                             <h6>Lokasi Penjual</h6>
                         </div>
                         <div class="col-md-6">
-                            <h6>Tujuan Pengiriman</h6>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
                             <h6>Sidoarjo</h6>
                         </div>
-                        <div class="col-md-6">
-                            <h6>Jakarta</h6>
-                        </div>
                     </div>
+                    <hr>
                     <form action="{{ url('addshowcart', $product->id) }}" method="post">
                         @csrf
                         <div class="row">

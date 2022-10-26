@@ -58,7 +58,7 @@
                     </table>
                 </div>
                 <div class="row justify-content-center">
-                    <button class="btn btn-success">Checkout</button>
+                    <a class="btn btn-success" href="/checkout">Checkout</a>
                 </div>
             </form>
         @endif
